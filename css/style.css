@@ -1,0 +1,36 @@
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Amaranth', sans-serif;
+    font-size: 35px;
+}
+body {
+    font-family: 'Kalam', cursive;
+    font-size: 18px;
+    background-color:lightskyblue;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.hero-image {
+  background-image: url("https://www.flickr.com/photos/shinrya/21803864658");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+#Entree:before {
+    padding-top: 50px;
+    display:block;
+    content:"";
+}
+#Desserts:before {
+    padding-top: 50px;
+    display:block;
+    content:"";
+}
+left {
+    float: left;
+}
